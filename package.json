@@ -1,0 +1,45 @@
+{
+  "name": "whispers",
+  "version": "0.0.0",
+  "description": "geo chat based on rabbitmq using geohash",
+  "main": "index.js",
+  "dependencies": {
+    "amqp": "~0.2.4",
+    "bunyan": "~1.4.0",
+    "cassandra-driver": "~2.1.2",
+    "body-parser": "~1.13.3",
+    "config": "~1.15.0",
+    "boom": "~2.8.0",
+    "chai": "~3.2.0",
+    "generate-function": "~2.0.0",
+    "geolib": "~2.0.18",
+    "cryptiles": "~2.0.4",
+    "eslint": "~0.24.1",
+    "express": "~4.13.3",
+    "ngeohash": "~0.6.0",
+    "generate-object-property": "~1.2.0",
+    "hoek": "~2.14.0",
+    "nodemon": "~1.4.0",
+    "istanbul": "~0.3.17",
+    "jsonpointer": "~2.0.0",
+    "underscore": "~1.8.3",
+    "request": "~2.60.0",
+    "nock": "~2.10.0",
+    "sntp": "~1.0.9",
+    "geohash": "0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "~2.2.5"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js | bunyan"
+  },
+  "keywords": [
+    "chat",
+    "rabbitmq",
+    "geohash"
+  ],
+  "author": "tesract",
+  "license": "BSD-2-Clause"
+}
